@@ -15,8 +15,8 @@
 ![Screenshot of the webpage](./Web%20capture_22-6-2023_105323_127.0.0.1.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/random-quote-generator)
+- [Deployed site](https://app.netlify.com/sites/randomquotepage/settings/domain)
 
 ## Process
 ### Tools Used
