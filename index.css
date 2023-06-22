@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgb(134, 179, 224), rgb(47, 66, 85));
+}
+
+#main-container {
+    width: 450px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+#quote-section {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#person {
+    font-size: 1.7em;
+    color: gray;
+    text-transform: uppercase;
+}
+
+#next-quote-button {
+    width: 60%;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid rgb(47, 66, 85);
+    color: rgb(47, 66, 85);
+    transition: 0.5s;
+}
+
+#next-quote-button:hover {
+    background-color: rgb(47, 66, 85);
+    color: white;
+    border-color: white;
+}
+
+@media (max-width: 500px){
+    #main-container {
+        width: 320px;
+        height: 400px;
+        padding: 30px 10px;
+    }
+
+    #quote-section {
+        font-size: 1.2em;
+    }
+
+    #person {
+        font-size: 1.6em;
+    }
+    
+}
