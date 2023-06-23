@@ -124,11 +124,6 @@ const quotesArray = [{
 },
 
 {
-    quote: 'No man who is in a hurry is quite civilized.',
-    person: 'No man who is in a hurry is quite civilized.'
-},
-
-{
     quote: 'The best index to a person’s character is (a) how he treats people who can’t do him any good, and (b) how he treats people who can’t fight back.',
     person: 'Abigail Van Buren'
 },
@@ -154,8 +149,6 @@ const quotesArray = [{
     person: 'Will Durant'
 }
 ]
-
-//console.log(quotesArray.length)
 
 let quote = document.getElementById('quote-section');
 let person = document.getElementById('person');
