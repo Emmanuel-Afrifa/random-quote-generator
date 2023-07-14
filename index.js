@@ -30,7 +30,7 @@ const quotesArray = [{
 
 {
     quote: 'When in doubt, look intelligent.',
-    pweson: 'Garrison Keillor'
+    person: 'Garrison Keillor'
 },
 
 {
